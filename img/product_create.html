@@ -86,83 +86,71 @@
 </head>
 <body>
     <main class="mt-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5">
-                    <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                        <ol class="carousel-indicators">
-                          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
-                          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-                          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="https://www.elife.co.kr/jsp/front/po/090107/static/images/summary_planimages_37.png?v=1612015796869" class="d-block w-100" alt="">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="https://www.elife.co.kr/jsp/front/po/090107/static/images/summary_planimages_59a.png?v=1612015796869" class="d-block w-100" alt="...">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="https://www.elife.co.kr/jsp/front/po/090107/static/images/summary_planimages_59c.png?v=1612015796869" class="d-block w-100" alt="...">
-                          </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </a>
-                      </div>
-                </div>
-                <div class="col-md-7">
-                        <div class="card shadow-sm">
-                            <div class="card-body">
-                              <h4 class="card-title" >이편한 세상 그랑힐스 </h4>
-                              <span>
-                              <h1 class="card-title pt-3 pb-3 border-top">
-                                <span>18평형</span> 
-                            </h1>
-                            <h5 class="card-title border-top pt-3">
-                                <span>368세대</span> 
-                            </h5>
-                            <h5 class="card-title">
-                                <span>1~2인 구성원을 위한 평면구조</span> 
-                            </h5>
-                        </span>
-                             
-                              <p class="card-text">
-                                <span class="badge bg-secondary">산곡역</span>
-                                <span class="badge bg-secondary">인천 최대 인프라</span>
-                                <span class="badge bg-secondary">중심상업지구</span>
-                                <span class="badge bg-secondary">최신 건축자제</span>
-                              </p>
-                              <p class="card-text-pb-3 border-top pt-3">
-                                  2020.12.31오픈ㅣ2021.01.11청약~ㅣ01.20 당첨자 발표ㅣ01.21~30 서류접수ㅣ02.21~07 정당계약
-                              </p>
-                              <div class="d-flex justify-content-between align-items-center">
-                              <div class="col-6 d-grid p-1">
-                                <button type="button" class="btn btn-lg btn-dark">톡 상담</button>
-                              </div>
-                              <div class="col-6 d-grid p-1">
-                                <button type="button" class="btn btn-lg btn-danger">문의하기</button>
-                              </div>
-                            </div>
-                               
-                                <small class="text-dark"></small>
-                              </div>
-                            </div>
-                          </div>
+       <div class="container">
+           <h2 class="text-center">주택 등록</h2>
+          <div class="mb-3 row text-center">
+            <label class="col-md-3 col-form-label fs-4">주택명</label>
+            <div class="col-md-8">
+                <input type="text" class="form-control">
+              </div>
+            </div>
+          <div class="mb-3 row text-center">
+            <label class="col-md-3 col-form-label fs-4">주택 가격</label>
+            <div class="col-md-8">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control">
+                    <span class="input-group-text">원</span>
+                  </div>
+              </div>
+          </div>
+          <div class="mb-3 row text-center">
+            <label class="col-md-3 col-form-label fs-4">희망 가격</label>
+            <div class="col-md-8">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control">
+                    <span class="input-group-text">원</span>
+                  </div>
+              </div>
+          </div>
+          <div class="mb-3 row text-center">
+            <label class="col-md-3 col-form-label fs-4">카테고리</label>
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-auto">
+                        <select class="from-select fs-5">
+                            <option value="">주택</option>
+                        </select>
+                    </div>
+                    <div class="col-auto">
+                        <select class="from-select fs-5">
+                            <option value="">상가</option>
+                        </select>
+                    </div>
+                    <div class="col-auto">
+                        <select class="from-select fs-5">
+                            <option value="">토지</option>
+                        </select>
                     </div>
                 </div>
-            </div>
+              </div>
+          </div>
         </div>
-        <div class="row">
-            <div class="col-12">
-                <img src="detail.png" class="rounded mx-auto d-block" class="img-fluid" alt="">
+        <div class="mb-3 row text-center">
+            <label class="col-md-3 col-form-label fs-4">태그</label>
+            <div class="col-md-8">
+                <input type="text" class="form-control">
+              </div>
             </div>
-        </div>
+            <div class="mb-3 row text-center">
+                <label class="col-md-3 col-form-label fs-4">계약 작성</label>
+                <div class="col-md-8">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control">
+                        <span class="input-group-text">~일 이내</span>
+                      </div>
+                  </div>
+              </div>
+    </div>
     </main>
     <footer class="mt-5 py-5 bg-dark">
         <div class="row">
